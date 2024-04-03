@@ -1,0 +1,78 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin-top: 5px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 248, 220, 0.8)); /* Creamy background */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(32, 31, 31);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Glassy shadow look */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Glassy shadow effect */
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.todo-icons {
+  display: flex;
+  gap: 5px;
+}
+
+#list-item {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
